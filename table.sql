@@ -14,4 +14,4 @@ insert into fruit_basket ( fruit_name ,quantity,price) values('Apple',2,3.00);
 insert into fruit_basket ( fruit_name ,quantity,price) values('Apple',2,3.00);
 insert into fruit_basket ( fruit_name ,quantity,price) values('Apple',2,3.00);
 
--- update fruit_basket set quantity = 5 where fruit_name = 'Orange';
+update fruit_basket set quantity = 10 where fruit_name = 'Orange';
