@@ -20,7 +20,7 @@ describe('The fruit_basket function', function () {
         assert.equal("Mango is successfully inserted", await basket.addFruit("Mango", 1, 20.50))
     });
     it('should show  fruit in the db', async function () {
-        assert.deepEqual([{ fruit_name: "Orange", id: 39, price: 3.00, quantity: 10 },{ fruit_name: "Orange", id: 67, price: 3.00, quantity: 10 }], await basket.show(['Orange']))
+        assert.deepEqual([{ fruit_name: "Orange", id: 1, price: "3.00", quantity: 10 },{ fruit_name: "Orange", id: 2, price: "30.00", quantity: 10 }], await basket.show(['Orange']))
     });
     it('should update fruit in the db', async function () {
         assert.equal("updated successfully", await basket.update("Orange",))
