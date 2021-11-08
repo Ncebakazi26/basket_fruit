@@ -1,0 +1,22 @@
+{
+  "name": "basket_fruit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fruit_basket.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.1.3"
+  },
+  "dependencies": {
+    "pg": "^8.7.1"
+  }
+}
