@@ -30,7 +30,7 @@ describe('The fruit_basket function', function () {
             {sum: 20}], await basket.sum())
     });
     it('should return the total price for Apples', async function () {
-        assert.deepEqual([{sum: 18.00}], await basket.total())
+        assert.deepEqual([{sum: 9.00}], await basket.total())
     });
     after(function () {
         pool.end();

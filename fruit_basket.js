@@ -19,7 +19,7 @@ return data.rows
 
    }
 async function total(){
-var data = await pool.query(`select sum(price*quantity) from fruit_basket where fruit_name = 'Apple' `)
+var data = await pool.query(`select sum(price) from fruit_basket where fruit_name = 'Apple' `)
 return data.rows
 }
 return{
